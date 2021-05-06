@@ -85,17 +85,17 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     conn.menu = conn.menu ? conn.menu : {}
     let before = conn.menu.before || `
 ╭─「 ${conn.user.name} 」
-│ Hai, %name!
+│ හෙලෝ, %name!
 │
-│ Tersisa *%limit Limit*
+│ ලිමිට් *%limit Limit*
 │ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
 │ %totalexp XP in Total
 │ 
 │ Tanggal: *%week %weton, %date*
 │ Tanggal Islam: *%dateIslamic*
-│ Waktu: *%time*
+│ වෙලාව: *%time*
 │
-│ Uptime: *%uptime (%muptime)*
+│ වැඩ කරන වෙලාව: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
 │ Github:
 │ %github
